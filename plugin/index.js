@@ -1,0 +1,1 @@
+export { DocsieTemplate } from "./DocsieTemplate"

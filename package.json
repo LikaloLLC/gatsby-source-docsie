@@ -1,0 +1,33 @@
+{
+	"name": "gatsby-source-docsie",
+	"version": "0.0.1",
+	"description": "A plugin for sourcing Docsie content",
+	"main": "index.js",
+	"scripts": {
+		"build": "babel ./plugin --presets=@babel/preset-env,@babel/preset-react --out-dir dist",
+		"watch": "nodemon --exec \"./node_modules/.bin/babel ./plugin --presets=@babel/preset-env,@babel/preset-react --out-dir dist\" -e js --ignore dist/"
+	},
+	"keywords": [
+		"gatsby",
+		"gatsby-plugin"
+	],
+	"author": "tjbo <tom@prototypable.io>",
+	"license": "0BSD",
+	"dependencies": {
+		"@babel/preset-react": "^7.22.5",
+		"babel-preset-gatsby": "^3.11.0",
+		"draft-js": "^0.11.7",
+		"draft-js-export-html": "^1.4.1",
+		"gatsby": "^5.11.0",
+		"node-fetch": "2.6.1",
+		"path": "^0.12.7",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.22.10",
+		"@babel/core": "^7.22.10",
+		"@babel/preset-env": "^7.22.10",
+		"nodemon": "^3.0.1"
+	}
+}
