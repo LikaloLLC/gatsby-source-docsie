@@ -6,9 +6,10 @@ yourself to have more control over page creation.
 
 ## How to Install
 
-`npm install gastby-source-docsie` // todo, add to npm?
+`npm install gastby-source-docsie` 
 
 ## How to Use 
+Add the plugin to your `gatsby-config.js` file.
 
     {
       resolve: require.resolve(`gatsby-source-docsie`),
