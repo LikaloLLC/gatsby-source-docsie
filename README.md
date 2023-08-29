@@ -6,7 +6,7 @@ yourself to have more control over page creation.
 
 ## How to Install
 
-`npm install gastby-source-docsie` // todo, add to npm?
+`npm install gastby-source-docsie` 
 
 ## How to Use 
 
