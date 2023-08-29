@@ -13,6 +13,10 @@
 		"documentation",
 		"doc-generator"
 	],
+	"repository": {
+  "type": "git",
+  "url": "https://github.com/LikaloLLC/gatsby-source-docsie.git"
+},
 	"author": "tjbo <tom@prototypable.io>",
 	"license": "0BSD",
 	"dependencies": {
