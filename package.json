@@ -1,6 +1,6 @@
 {
 	"name": "gatsby-source-docsie",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A plugin for sourcing Docsie content",
 	"main": "index.js",
 	"scripts": {
@@ -10,6 +10,7 @@
 	"keywords": [
 		"gatsby",
 		"gatsby-plugin",
+		"gatsby-source-plugin",
 		"documentation",
 		"doc-generator"
 	],
